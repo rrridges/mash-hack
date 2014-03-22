@@ -25,6 +25,36 @@
 		C9A9D30718DDEE040010B5F3 /* MHFlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A9D30518DDEE040010B5F3 /* MHFlightViewController.m */; };
 		C9A9D30818DDEE040010B5F3 /* MHFlightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D30618DDEE040010B5F3 /* MHFlightViewController.xib */; };
 		C9A9D30C18DDEF0D0010B5F3 /* flight_screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D30B18DDEF0D0010B5F3 /* flight_screen@2x.png */; };
+		A5A77D2E18DDF13A001984E5 /* tab_dashboard.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1A18DDF13A001984E5 /* tab_dashboard.png */; };
+		A5A77D2F18DDF13A001984E5 /* tab_dashboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1B18DDF13A001984E5 /* tab_dashboard@2x.png */; };
+		A5A77D3018DDF13A001984E5 /* tab_dashboard_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1C18DDF13A001984E5 /* tab_dashboard_selected.png */; };
+		A5A77D3118DDF13A001984E5 /* tab_dashboard_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1D18DDF13A001984E5 /* tab_dashboard_selected@2x.png */; };
+		A5A77D3218DDF13A001984E5 /* tab_location.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1E18DDF13A001984E5 /* tab_location.png */; };
+		A5A77D3318DDF13A001984E5 /* tab_location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1F18DDF13A001984E5 /* tab_location@2x.png */; };
+		A5A77D3418DDF13A001984E5 /* tab_location_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2018DDF13A001984E5 /* tab_location_selected.png */; };
+		A5A77D3518DDF13A001984E5 /* tab_location_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2118DDF13A001984E5 /* tab_location_selected@2x.png */; };
+		A5A77D3618DDF13A001984E5 /* tab_plane.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2218DDF13A001984E5 /* tab_plane.png */; };
+		A5A77D3718DDF13A001984E5 /* tab_plane@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2318DDF13A001984E5 /* tab_plane@2x.png */; };
+		A5A77D3818DDF13A001984E5 /* tab_plane_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2418DDF13A001984E5 /* tab_plane_selected.png */; };
+		A5A77D3918DDF13A001984E5 /* tab_plane_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2518DDF13A001984E5 /* tab_plane_selected@2x.png */; };
+		A5A77D3A18DDF13A001984E5 /* tab_sounds.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2618DDF13A001984E5 /* tab_sounds.png */; };
+		A5A77D3B18DDF13A001984E5 /* tab_sounds@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2718DDF13A001984E5 /* tab_sounds@2x.png */; };
+		A5A77D3C18DDF13A001984E5 /* tab_sounds_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2818DDF13A001984E5 /* tab_sounds_selected.png */; };
+		A5A77D3D18DDF13A001984E5 /* tab_sounds_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2918DDF13A001984E5 /* tab_sounds_selected@2x.png */; };
+		A5A77D3E18DDF13A001984E5 /* tab_tip.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2A18DDF13A001984E5 /* tab_tip.png */; };
+		A5A77D3F18DDF13A001984E5 /* tab_tip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2B18DDF13A001984E5 /* tab_tip@2x.png */; };
+		A5A77D4018DDF13A001984E5 /* tab_tip_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2C18DDF13A001984E5 /* tab_tip_selected.png */; };
+		A5A77D4118DDF13A001984E5 /* tab_tip_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2D18DDF13A001984E5 /* tab_tip_selected@2x.png */; };
+		A5A77D4D18DDF43D001984E5 /* ProximaNova-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4318DDF43D001984E5 /* ProximaNova-Black.otf */; };
+		A5A77D4E18DDF43D001984E5 /* ProximaNova-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4418DDF43D001984E5 /* ProximaNova-BoldIt.otf */; };
+		A5A77D4F18DDF43D001984E5 /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4518DDF43D001984E5 /* ProximaNova-Extrabold.otf */; };
+		A5A77D5018DDF43D001984E5 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4618DDF43D001984E5 /* ProximaNova-Light.otf */; };
+		A5A77D5118DDF43D001984E5 /* ProximaNova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4718DDF43D001984E5 /* ProximaNova-LightItalic.otf */; };
+		A5A77D5218DDF43D001984E5 /* ProximaNova-RegItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4818DDF43D001984E5 /* ProximaNova-RegItalic.otf */; };
+		A5A77D5318DDF43D001984E5 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4918DDF43D001984E5 /* ProximaNova-Regular.otf */; };
+		A5A77D5418DDF43D001984E5 /* ProximaNovaCond-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4A18DDF43D001984E5 /* ProximaNovaCond-Light.otf */; };
+		A5A77D5518DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4B18DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf */; };
+		A5A77D5618DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4C18DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf */; };
 		C9E11F7218DDCB2A006AA9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */; };
 		C9E11F7418DDCB2A006AA9F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */; };
 		C9E11F7618DDCB2B006AA9F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7518DDCB2B006AA9F8 /* UIKit.framework */; };
@@ -73,6 +103,36 @@
 		C9A9D30518DDEE040010B5F3 /* MHFlightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHFlightViewController.m; path = ViewControllers/MHFlightViewController.m; sourceTree = "<group>"; };
 		C9A9D30618DDEE040010B5F3 /* MHFlightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHFlightViewController.xib; path = ViewControllers/MHFlightViewController.xib; sourceTree = "<group>"; };
 		C9A9D30B18DDEF0D0010B5F3 /* flight_screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flight_screen@2x.png"; sourceTree = "<group>"; };
+		A5A77D1A18DDF13A001984E5 /* tab_dashboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_dashboard.png; sourceTree = "<group>"; };
+		A5A77D1B18DDF13A001984E5 /* tab_dashboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_dashboard@2x.png"; sourceTree = "<group>"; };
+		A5A77D1C18DDF13A001984E5 /* tab_dashboard_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_dashboard_selected.png; sourceTree = "<group>"; };
+		A5A77D1D18DDF13A001984E5 /* tab_dashboard_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_dashboard_selected@2x.png"; sourceTree = "<group>"; };
+		A5A77D1E18DDF13A001984E5 /* tab_location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_location.png; sourceTree = "<group>"; };
+		A5A77D1F18DDF13A001984E5 /* tab_location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_location@2x.png"; sourceTree = "<group>"; };
+		A5A77D2018DDF13A001984E5 /* tab_location_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_location_selected.png; sourceTree = "<group>"; };
+		A5A77D2118DDF13A001984E5 /* tab_location_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_location_selected@2x.png"; sourceTree = "<group>"; };
+		A5A77D2218DDF13A001984E5 /* tab_plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_plane.png; sourceTree = "<group>"; };
+		A5A77D2318DDF13A001984E5 /* tab_plane@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_plane@2x.png"; sourceTree = "<group>"; };
+		A5A77D2418DDF13A001984E5 /* tab_plane_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_plane_selected.png; sourceTree = "<group>"; };
+		A5A77D2518DDF13A001984E5 /* tab_plane_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_plane_selected@2x.png"; sourceTree = "<group>"; };
+		A5A77D2618DDF13A001984E5 /* tab_sounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_sounds.png; sourceTree = "<group>"; };
+		A5A77D2718DDF13A001984E5 /* tab_sounds@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_sounds@2x.png"; sourceTree = "<group>"; };
+		A5A77D2818DDF13A001984E5 /* tab_sounds_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_sounds_selected.png; sourceTree = "<group>"; };
+		A5A77D2918DDF13A001984E5 /* tab_sounds_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_sounds_selected@2x.png"; sourceTree = "<group>"; };
+		A5A77D2A18DDF13A001984E5 /* tab_tip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_tip.png; sourceTree = "<group>"; };
+		A5A77D2B18DDF13A001984E5 /* tab_tip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_tip@2x.png"; sourceTree = "<group>"; };
+		A5A77D2C18DDF13A001984E5 /* tab_tip_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_tip_selected.png; sourceTree = "<group>"; };
+		A5A77D2D18DDF13A001984E5 /* tab_tip_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_tip_selected@2x.png"; sourceTree = "<group>"; };
+		A5A77D4318DDF43D001984E5 /* ProximaNova-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Black.otf"; sourceTree = "<group>"; };
+		A5A77D4418DDF43D001984E5 /* ProximaNova-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-BoldIt.otf"; sourceTree = "<group>"; };
+		A5A77D4518DDF43D001984E5 /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
+		A5A77D4618DDF43D001984E5 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
+		A5A77D4718DDF43D001984E5 /* ProximaNova-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-LightItalic.otf"; sourceTree = "<group>"; };
+		A5A77D4818DDF43D001984E5 /* ProximaNova-RegItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegItalic.otf"; sourceTree = "<group>"; };
+		A5A77D4918DDF43D001984E5 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		A5A77D4A18DDF43D001984E5 /* ProximaNovaCond-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Light.otf"; sourceTree = "<group>"; };
+		A5A77D4B18DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-RegularIt.otf"; sourceTree = "<group>"; };
+		A5A77D4C18DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-SemiboldIt.otf"; sourceTree = "<group>"; };
 		C9E11F6E18DDCB2A006AA9F8 /* MashHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MashHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -144,6 +204,8 @@
 		A5A77D0018DDD952001984E5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A5A77D4218DDF43D001984E5 /* Fonts */,
+				A5A77D1918DDF13A001984E5 /* TabBar */,
 				A5A77D1118DDEA8D001984E5 /* button_flip_left.png */,
 				A5A77D1218DDEA8D001984E5 /* button_flip_left@2x.png */,
 				A5A77D1318DDEA8D001984E5 /* meter_arrow.png */,
@@ -159,6 +221,50 @@
 				A5A77D0418DDD952001984E5 /* meter_section@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A5A77D1918DDF13A001984E5 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A5A77D1A18DDF13A001984E5 /* tab_dashboard.png */,
+				A5A77D1B18DDF13A001984E5 /* tab_dashboard@2x.png */,
+				A5A77D1C18DDF13A001984E5 /* tab_dashboard_selected.png */,
+				A5A77D1D18DDF13A001984E5 /* tab_dashboard_selected@2x.png */,
+				A5A77D1E18DDF13A001984E5 /* tab_location.png */,
+				A5A77D1F18DDF13A001984E5 /* tab_location@2x.png */,
+				A5A77D2018DDF13A001984E5 /* tab_location_selected.png */,
+				A5A77D2118DDF13A001984E5 /* tab_location_selected@2x.png */,
+				A5A77D2218DDF13A001984E5 /* tab_plane.png */,
+				A5A77D2318DDF13A001984E5 /* tab_plane@2x.png */,
+				A5A77D2418DDF13A001984E5 /* tab_plane_selected.png */,
+				A5A77D2518DDF13A001984E5 /* tab_plane_selected@2x.png */,
+				A5A77D2618DDF13A001984E5 /* tab_sounds.png */,
+				A5A77D2718DDF13A001984E5 /* tab_sounds@2x.png */,
+				A5A77D2818DDF13A001984E5 /* tab_sounds_selected.png */,
+				A5A77D2918DDF13A001984E5 /* tab_sounds_selected@2x.png */,
+				A5A77D2A18DDF13A001984E5 /* tab_tip.png */,
+				A5A77D2B18DDF13A001984E5 /* tab_tip@2x.png */,
+				A5A77D2C18DDF13A001984E5 /* tab_tip_selected.png */,
+				A5A77D2D18DDF13A001984E5 /* tab_tip_selected@2x.png */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A5A77D4218DDF43D001984E5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A5A77D4318DDF43D001984E5 /* ProximaNova-Black.otf */,
+				A5A77D4418DDF43D001984E5 /* ProximaNova-BoldIt.otf */,
+				A5A77D4518DDF43D001984E5 /* ProximaNova-Extrabold.otf */,
+				A5A77D4618DDF43D001984E5 /* ProximaNova-Light.otf */,
+				A5A77D4718DDF43D001984E5 /* ProximaNova-LightItalic.otf */,
+				A5A77D4818DDF43D001984E5 /* ProximaNova-RegItalic.otf */,
+				A5A77D4918DDF43D001984E5 /* ProximaNova-Regular.otf */,
+				A5A77D4A18DDF43D001984E5 /* ProximaNovaCond-Light.otf */,
+				A5A77D4B18DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf */,
+				A5A77D4C18DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		C9E11F6518DDCB2A006AA9F8 = {
@@ -314,23 +420,53 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A77D3D18DDF13A001984E5 /* tab_sounds_selected@2x.png in Resources */,
+				A5A77D5618DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf in Resources */,
+				A5A77D3E18DDF13A001984E5 /* tab_tip.png in Resources */,
 				A5A77D1618DDEA8D001984E5 /* button_flip_left@2x.png in Resources */,
 				A5A77D1018DDE90E001984E5 /* alert_2@2x.png in Resources */,
 				C9A9D30C18DDEF0D0010B5F3 /* flight_screen@2x.png in Resources */,
+				A5A77D2E18DDF13A001984E5 /* tab_dashboard.png in Resources */,
 				A5A77D0518DDD952001984E5 /* meter_box_negative.png in Resources */,
+				A5A77D4118DDF13A001984E5 /* tab_tip_selected@2x.png in Resources */,
+				A5A77D3918DDF13A001984E5 /* tab_plane_selected@2x.png in Resources */,
 				C9E11F8A18DDCB2B006AA9F8 /* Images.xcassets in Resources */,
+				A5A77D5118DDF43D001984E5 /* ProximaNova-LightItalic.otf in Resources */,
+				A5A77D4018DDF13A001984E5 /* tab_tip_selected.png in Resources */,
 				A5A77D1518DDEA8D001984E5 /* button_flip_left.png in Resources */,
+				A5A77D2F18DDF13A001984E5 /* tab_dashboard@2x.png in Resources */,
 				A5A77D1718DDEA8D001984E5 /* meter_arrow.png in Resources */,
+				A5A77D5418DDF43D001984E5 /* ProximaNovaCond-Light.otf in Resources */,
 				A5A77D1818DDEA8D001984E5 /* meter_arrow@2x.png in Resources */,
+				A5A77D4F18DDF43D001984E5 /* ProximaNova-Extrabold.otf in Resources */,
+				A5A77D3718DDF13A001984E5 /* tab_plane@2x.png in Resources */,
 				A5A77CFB18DDCDE1001984E5 /* MHHomeViewController.xib in Resources */,
 				A5A77D0F18DDE90E001984E5 /* alert_2.png in Resources */,
+				A5A77D5518DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf in Resources */,
+				A5A77D3518DDF13A001984E5 /* tab_location_selected@2x.png in Resources */,
+				A5A77D3418DDF13A001984E5 /* tab_location_selected.png in Resources */,
+				A5A77D3018DDF13A001984E5 /* tab_dashboard_selected.png in Resources */,
+				A5A77D4E18DDF43D001984E5 /* ProximaNova-BoldIt.otf in Resources */,
+				A5A77D3B18DDF13A001984E5 /* tab_sounds@2x.png in Resources */,
 				A5A77D0E18DDE90E001984E5 /* alert_1@2x.png in Resources */,
+				A5A77D3118DDF13A001984E5 /* tab_dashboard_selected@2x.png in Resources */,
+				A5A77D3318DDF13A001984E5 /* tab_location@2x.png in Resources */,
+				A5A77D3C18DDF13A001984E5 /* tab_sounds_selected.png in Resources */,
+				A5A77D3218DDF13A001984E5 /* tab_location.png in Resources */,
+				A5A77D5318DDF43D001984E5 /* ProximaNova-Regular.otf in Resources */,
+				A5A77D4D18DDF43D001984E5 /* ProximaNova-Black.otf in Resources */,
+				A5A77D5018DDF43D001984E5 /* ProximaNova-Light.otf in Resources */,
 				A5A77D0818DDD952001984E5 /* meter_section@2x.png in Resources */,
 				C9E11F7C18DDCB2B006AA9F8 /* InfoPlist.strings in Resources */,
 				C9A9D30818DDEE040010B5F3 /* MHFlightViewController.xib in Resources */,
+				A5A77D3818DDF13A001984E5 /* tab_plane_selected.png in Resources */,
 				A5A77D0618DDD952001984E5 /* meter_box_negative@2x.png in Resources */,
 				A5A77D0D18DDE90E001984E5 /* alert_1.png in Resources */,
+				A5A77D3618DDF13A001984E5 /* tab_plane.png in Resources */,
+				A5A77D3F18DDF13A001984E5 /* tab_tip@2x.png in Resources */,
 				A5A77D0718DDD952001984E5 /* meter_section.png in Resources */,
+				A5A77D5218DDF43D001984E5 /* ProximaNova-RegItalic.otf in Resources */,
+				A5A77D3A18DDF13A001984E5 /* tab_sounds.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
