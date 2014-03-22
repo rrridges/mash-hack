@@ -14,6 +14,7 @@
 @property (strong, nonatomic) MHTurbulenceMeter *meter;
 
 @end
+#import "MHHomeViewController.h"
 
 @implementation MHAppDelegate
 
@@ -23,6 +24,14 @@
     
     self.meter = [[MHTurbulenceMeter alloc] init];
     [self.meter start];
+		
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    MHHomeViewController *homeVC = [[MHHomeViewController alloc] initWithNibName:nil bundle:nil];
+    
+    self.window.rootViewController = homeVC;
+    
+    [self.window makeKeyAndVisible];
     
     return YES;
 }
