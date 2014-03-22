@@ -17,6 +17,7 @@
 @property (nonatomic, weak) IBOutlet UIView *rotatorRect;
 @property (nonatomic, strong) UIImageView *meterArrow;
 @property (nonatomic, weak) IBOutlet UIImageView *graphImage;
+@property (nonatomic, strong) UIView *meterBg;
 
 - (IBAction)flipTopView:(id)sender;
 
@@ -41,12 +42,12 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(turbulenceUpdated:) name:kMHTurbulenceUpdateNotification object:nil];
     self.turbulenceMeterContainer.layer.cornerRadius = 10;
     
-    UIView *meterBg = [[UIView alloc] initWithFrame:CGRectMake(10, 10, self.turbulenceMeterContainer.frame.size.width - 20, self.turbulenceMeterContainer.frame.size.height - 20)];
-    meterBg.backgroundColor = UIColorFromRGB(0x3a48ab);
+    self.meterBg = [[UIView alloc] initWithFrame:CGRectMake(10, 10, self.turbulenceMeterContainer.frame.size.width - 20, self.turbulenceMeterContainer.frame.size.height - 20)];
+    self.meterBg.backgroundColor = UIColorFromRGB(0x3a48ab);
     self.rotatorRect.layer.anchorPoint = CGPointMake(0.5, 0);
     self.rotatorRect.layer.position = CGPointMake(148, 171);
     
-    [self.turbulenceMeterContainer insertSubview:meterBg belowSubview:self.rotatorRect];
+    [self.turbulenceMeterContainer insertSubview:self.meterBg belowSubview:self.rotatorRect];
     
     self.rotatorRect.backgroundColor = UIColorFromRGB(0x68b7ef);
     
@@ -63,6 +64,7 @@
     
     self.mildLabel.font = [UIFont fontWithName:@"ProximaNovaCond-Regular" size:12];
     self.severeLabel.font = [UIFont fontWithName:@"ProximaNovaCond-Regular" size:12];
+    self.meterTitleLabel.font = [UIFont fontWithName:@"ProximaNovaCond-Regular" size:12];
     
     self.meterArrow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"meter_arrow.png"]];
     [self.turbulenceMeterContainer insertSubview:self.meterArrow belowSubview:self.graphImage];
@@ -141,6 +143,10 @@
 - (IBAction)flipTopView:(id)sender {
     [UIView transitionWithView:self.turbulenceMeterContainer duration:0.4 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
         self.graphImage.hidden = !self.graphImage.hidden;
+        self.turbulenceMeterBgMask.hidden = !self.turbulenceMeterBgMask.hidden;
+        self.meterTitleLabel.hidden = !self.meterTitleLabel.hidden;
+        self.rotatorRect.hidden = !self.rotatorRect.hidden;
+        self.meterBg.hidden = !self.meterBg.hidden;
     } completion:^(BOOL finished){
         
     }];

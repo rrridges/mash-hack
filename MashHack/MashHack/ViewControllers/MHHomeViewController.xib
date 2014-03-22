@@ -12,6 +12,7 @@
                 <outlet property="alertScrollView" destination="O30-P7-6dy" id="JDJ-Oo-E1r"/>
                 <outlet property="graphImage" destination="e4p-X1-prX" id="ieb-io-gum"/>
                 <outlet property="meterDescriptionLabel" destination="Blx-UZ-Z6o" id="oqh-2S-x9C"/>
+                <outlet property="meterTitleLabel" destination="HQE-oY-nU6" id="2Za-J9-tCp"/>
                 <outlet property="mildLabel" destination="LiM-xh-ysr" id="grF-fA-1qX"/>
                 <outlet property="rotatorRect" destination="WAc-dW-1e7" id="TaZ-HN-2me"/>
                 <outlet property="severeLabel" destination="6gf-8J-TWV" id="6qT-xk-PDC"/>
@@ -69,12 +70,19 @@
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TURBULENCE METER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HQE-oY-nU6">
+                                    <rect key="frame" x="92" y="6" width="110" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                                 <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graph.png" id="e4p-X1-prX">
                                     <rect key="frame" x="0.0" y="0.0" width="295" height="276"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GCL-Je-A30">
-                                    <rect key="frame" x="6" y="6" width="22" height="22"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" lineBreakMode="middleTruncation" id="GCL-Je-A30">
+                                    <rect key="frame" x="6" y="6" width="58" height="54"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" image="button_flip_left.png">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>

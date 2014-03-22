@@ -16,5 +16,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *alert2;
 @property (weak, nonatomic) IBOutlet UIImageView *alert3;
 @property (weak, nonatomic) IBOutlet UIScrollView *alertScrollView;
+@property (weak, nonatomic) IBOutlet UILabel *meterTitleLabel;
 
 @end
