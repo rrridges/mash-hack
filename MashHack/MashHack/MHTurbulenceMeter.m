@@ -9,7 +9,7 @@
 #import "MHTurbulenceMeter.h"
 
 #define MOTION_QUEUE_SIZE 10
-#define MAX_G_FORCE 20
+#define MAX_G_FORCE 15
 
 NSString * const kMHTurbulenceUpdateNotification = @"kMHTurbulenceUpdateNotification";
 NSString * const KMHTurbulenceUpdateNotificationMagnitudeKey = @"kMHTurbulenceUpdateNotificationMagnitudeKey";

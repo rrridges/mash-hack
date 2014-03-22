@@ -8,6 +8,7 @@
 
 #import "MHHomeViewController.h"
 #import "MHSemiDonut.h"
+#import "MHTurbulenceMeter.h"
 
 @interface MHHomeViewController ()
 
@@ -33,23 +34,31 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(turbulenceUpdated:) name:kMHTurbulenceUpdateNotification object:nil];
+    
     UIView *meterBg = [[UIView alloc] initWithFrame:CGRectMake(10, 10, self.turbulenceMeterContainer.frame.size.width - 20, self.turbulenceMeterContainer.frame.size.height - 20)];
     meterBg.backgroundColor = UIColorFromRGB(0x3a48ab);
     self.rotatorRect.layer.anchorPoint = CGPointMake(0.5, 0);
-    self.rotatorRect.layer.position = CGPointMake(148, 169);
+    self.rotatorRect.layer.position = CGPointMake(148, 171);
     
     [self.turbulenceMeterContainer insertSubview:meterBg belowSubview:self.rotatorRect];
     
     self.rotatorRect.backgroundColor = UIColorFromRGB(0x68b7ef);
-    
-    [UIView animateWithDuration:1.5 animations:^{
-        self.rotatorRect.transform = CGAffineTransformRotate(self.rotatorRect.transform, 0.5*(M_PI / 2));
-    }];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
+}
+
+- (void)turbulenceUpdated:(NSNotification *)notification {
+    double magnitude = [notification.userInfo[KMHTurbulenceUpdateNotificationMagnitudeKey] doubleValue];
+//    NSLog(@"magnitude: %f", magnitude);
+    float angle = M_PI * magnitude;
+    [self.rotatorRect.layer removeAllAnimations];
+    [UIView animateWithDuration:0.3 animations:^{
+        self.rotatorRect.transform = CGAffineTransformRotate(CGAffineTransformIdentity, angle);
+    }];
 }
 
 - (void)didReceiveMemoryWarning
