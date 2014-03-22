@@ -25,6 +25,6 @@
         </view>
     </objects>
     <resources>
-        <image name="flight_screen.png" width="640" height="1136"/>
+        <image name="flight_screen.png" width="320" height="568"/>
     </resources>
 </document>

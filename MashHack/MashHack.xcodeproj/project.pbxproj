@@ -55,6 +55,7 @@
 		A5A77D5418DDF43D001984E5 /* ProximaNovaCond-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4A18DDF43D001984E5 /* ProximaNovaCond-Light.otf */; };
 		A5A77D5518DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4B18DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf */; };
 		A5A77D5618DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4C18DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf */; };
+		C9A9D30E18DDF2050010B5F3 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D30D18DDF2050010B5F3 /* background@2x.png */; };
 		C9E11F7218DDCB2A006AA9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */; };
 		C9E11F7418DDCB2A006AA9F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */; };
 		C9E11F7618DDCB2B006AA9F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7518DDCB2B006AA9F8 /* UIKit.framework */; };
@@ -133,6 +134,7 @@
 		A5A77D4A18DDF43D001984E5 /* ProximaNovaCond-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Light.otf"; sourceTree = "<group>"; };
 		A5A77D4B18DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-RegularIt.otf"; sourceTree = "<group>"; };
 		A5A77D4C18DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-SemiboldIt.otf"; sourceTree = "<group>"; };
+		C9A9D30D18DDF2050010B5F3 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		C9E11F6E18DDCB2A006AA9F8 /* MashHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MashHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -206,6 +208,7 @@
 			children = (
 				A5A77D4218DDF43D001984E5 /* Fonts */,
 				A5A77D1918DDF13A001984E5 /* TabBar */,
+				C9A9D30D18DDF2050010B5F3 /* background@2x.png */,
 				A5A77D1118DDEA8D001984E5 /* button_flip_left.png */,
 				A5A77D1218DDEA8D001984E5 /* button_flip_left@2x.png */,
 				A5A77D1318DDEA8D001984E5 /* meter_arrow.png */,
@@ -448,6 +451,7 @@
 				A5A77D3018DDF13A001984E5 /* tab_dashboard_selected.png in Resources */,
 				A5A77D4E18DDF43D001984E5 /* ProximaNova-BoldIt.otf in Resources */,
 				A5A77D3B18DDF13A001984E5 /* tab_sounds@2x.png in Resources */,
+				C9A9D30E18DDF2050010B5F3 /* background@2x.png in Resources */,
 				A5A77D0E18DDE90E001984E5 /* alert_1@2x.png in Resources */,
 				A5A77D3118DDF13A001984E5 /* tab_dashboard_selected@2x.png in Resources */,
 				A5A77D3318DDF13A001984E5 /* tab_location@2x.png in Resources */,
