@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface MHHomeViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *meterDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *mildLabel;
+@property (weak, nonatomic) IBOutlet UILabel *severeLabel;
 
 @end
