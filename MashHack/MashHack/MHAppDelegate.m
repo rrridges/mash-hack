@@ -9,6 +9,8 @@
 #import "MHAppDelegate.h"
 #import "MHTurbulenceMeter.h"
 #import "MHHomeViewController.h"
+#import "MHFlightViewController.h"
+#import "MHFlightSearchViewController.h"
 
 @interface MHAppDelegate ()
 
@@ -27,6 +29,7 @@
 		
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    [self setupNavBarAppearance];
     [self setupTabbarAppearance];
     [self setupTabBarItemAppearance];
     
@@ -35,8 +38,11 @@
     [tabBarController addChildViewController:[self flightViewController]];
     [tabBarController addChildViewController:[self homeViewController]];
     [tabBarController addChildViewController:[self locationViewController]];
+    [tabBarController addChildViewController:[self homeViewController]];
     [tabBarController addChildViewController:[self soundsViewController]];
     [tabBarController addChildViewController:[self tipsViewController]];
+    
+    [tabBarController setSelectedIndex:2];
     
     self.window.rootViewController = tabBarController;
     
@@ -55,12 +61,14 @@
 }
 
 - (UIViewController *)flightViewController {
-    UIViewController *flightVC = [[UIViewController alloc] init];
+    MHFlightSearchViewController *flightVC = [[MHFlightSearchViewController alloc] init];
     flightVC.tabBarItem.image = [[UIImage imageNamed:@"tab_plane"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     flightVC.tabBarItem.selectedImage = [[UIImage imageNamed:@"tab_plane_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     flightVC.tabBarItem.title = [NSLocalizedString(@"Flight", nil) uppercaseString];
     
-    return flightVC;
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:flightVC];
+    
+    return navController;
 }
 
 - (UIViewController *)locationViewController {
@@ -88,6 +96,12 @@
     tipsVC.tabBarItem.title = [NSLocalizedString(@"Tips", nil) uppercaseString];
 
     return tipsVC;
+}
+
+- (void)setupNavBarAppearance {
+    UINavigationBar *appearance = [UINavigationBar appearance];
+    
+    [appearance setBarTintColor:UIColorFromRGB(0x2b60a4)];
 }
 
 - (void)setupTabbarAppearance {
