@@ -75,11 +75,11 @@
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_1.png" id="zfN-Lw-7B7">
-                            <rect key="frame" x="12.5" y="318" width="295" height="76"/>
+                            <rect key="frame" x="12.5" y="319" width="296" height="113"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_2.png" id="Qiu-gK-sII">
-                            <rect key="frame" x="12.5" y="402" width="295" height="76"/>
+                            <rect key="frame" x="12.5" y="440" width="296" height="113"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                     </subviews>
@@ -92,8 +92,8 @@
         </view>
     </objects>
     <resources>
-        <image name="alert_1.png" width="295" height="76"/>
-        <image name="alert_2.png" width="295" height="76"/>
+        <image name="alert_1.png" width="296" height="113"/>
+        <image name="alert_2.png" width="296" height="113"/>
         <image name="background.png" width="320" height="568"/>
         <image name="button_flip_left.png" width="22" height="22"/>
         <image name="meter_box_negative.png" width="295" height="276"/>

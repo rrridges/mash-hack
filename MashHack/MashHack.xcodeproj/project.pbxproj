@@ -14,9 +14,7 @@
 		A5A77D0618DDD952001984E5 /* meter_box_negative@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0218DDD952001984E5 /* meter_box_negative@2x.png */; };
 		A5A77D0718DDD952001984E5 /* meter_section.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0318DDD952001984E5 /* meter_section.png */; };
 		A5A77D0818DDD952001984E5 /* meter_section@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0418DDD952001984E5 /* meter_section@2x.png */; };
-		A5A77D0D18DDE90E001984E5 /* alert_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0918DDE90E001984E5 /* alert_1.png */; };
 		A5A77D0E18DDE90E001984E5 /* alert_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0A18DDE90E001984E5 /* alert_1@2x.png */; };
-		A5A77D0F18DDE90E001984E5 /* alert_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0B18DDE90E001984E5 /* alert_2.png */; };
 		A5A77D1018DDE90E001984E5 /* alert_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0C18DDE90E001984E5 /* alert_2@2x.png */; };
 		A5A77D1518DDEA8D001984E5 /* button_flip_left.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1118DDEA8D001984E5 /* button_flip_left.png */; };
 		A5A77D1618DDEA8D001984E5 /* button_flip_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1218DDEA8D001984E5 /* button_flip_left@2x.png */; };
@@ -68,6 +66,9 @@
 		C9A9D31518DDF6780010B5F3 /* ProximaNova-RegularIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D31118DDF6780010B5F3 /* ProximaNova-RegularIt.otf */; };
 		C9A9D31618DDF6780010B5F3 /* ProximaNova-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D31218DDF6780010B5F3 /* ProximaNova-Semibold.otf */; };
 		C9A9D31818DDF84D0010B5F3 /* ProximaNovaCond-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D31718DDF84D0010B5F3 /* ProximaNovaCond-Regular.otf */; };
+		C9A9D31A18DE07200010B5F3 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D31918DE07200010B5F3 /* map@2x.png */; };
+		C9A9D31E18DE073B0010B5F3 /* MHMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A9D31C18DE073B0010B5F3 /* MHMapViewController.m */; };
+		C9A9D31F18DE073B0010B5F3 /* MHMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D31D18DE073B0010B5F3 /* MHMapViewController.xib */; };
 		C9E11F7218DDCB2A006AA9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */; };
 		C9E11F7418DDCB2A006AA9F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */; };
 		C9E11F7618DDCB2B006AA9F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7518DDCB2B006AA9F8 /* UIKit.framework */; };
@@ -104,9 +105,7 @@
 		A5A77D0218DDD952001984E5 /* meter_box_negative@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meter_box_negative@2x.png"; sourceTree = "<group>"; };
 		A5A77D0318DDD952001984E5 /* meter_section.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meter_section.png; sourceTree = "<group>"; };
 		A5A77D0418DDD952001984E5 /* meter_section@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meter_section@2x.png"; sourceTree = "<group>"; };
-		A5A77D0918DDE90E001984E5 /* alert_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert_1.png; sourceTree = "<group>"; };
 		A5A77D0A18DDE90E001984E5 /* alert_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_1@2x.png"; sourceTree = "<group>"; };
-		A5A77D0B18DDE90E001984E5 /* alert_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert_2.png; sourceTree = "<group>"; };
 		A5A77D0C18DDE90E001984E5 /* alert_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_2@2x.png"; sourceTree = "<group>"; };
 		A5A77D1118DDEA8D001984E5 /* button_flip_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_flip_left.png; sourceTree = "<group>"; };
 		A5A77D1218DDEA8D001984E5 /* button_flip_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_flip_left@2x.png"; sourceTree = "<group>"; };
@@ -160,6 +159,10 @@
 		C9A9D31118DDF6780010B5F3 /* ProximaNova-RegularIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegularIt.otf"; sourceTree = "<group>"; };
 		C9A9D31218DDF6780010B5F3 /* ProximaNova-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Semibold.otf"; sourceTree = "<group>"; };
 		C9A9D31718DDF84D0010B5F3 /* ProximaNovaCond-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Regular.otf"; sourceTree = "<group>"; };
+		C9A9D31918DE07200010B5F3 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
+		C9A9D31B18DE073B0010B5F3 /* MHMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHMapViewController.h; path = ViewControllers/MHMapViewController.h; sourceTree = "<group>"; };
+		C9A9D31C18DE073B0010B5F3 /* MHMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHMapViewController.m; path = ViewControllers/MHMapViewController.m; sourceTree = "<group>"; };
+		C9A9D31D18DE073B0010B5F3 /* MHMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHMapViewController.xib; path = ViewControllers/MHMapViewController.xib; sourceTree = "<group>"; };
 		C9E11F6E18DDCB2A006AA9F8 /* MashHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MashHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -218,6 +221,9 @@
 				A5A77D5718DDF9AC001984E5 /* MHFlightSearchViewController.h */,
 				A5A77D5818DDF9AC001984E5 /* MHFlightSearchViewController.m */,
 				A5A77D5918DDF9AC001984E5 /* MHFlightSearchViewController.xib */,
+				C9A9D31B18DE073B0010B5F3 /* MHMapViewController.h */,
+				C9A9D31C18DE073B0010B5F3 /* MHMapViewController.m */,
+				C9A9D31D18DE073B0010B5F3 /* MHMapViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -238,13 +244,12 @@
 				A5A77D4218DDF43D001984E5 /* Fonts */,
 				A5A77D1918DDF13A001984E5 /* TabBar */,
 				C9A9D30D18DDF2050010B5F3 /* background@2x.png */,
+				C9A9D31918DE07200010B5F3 /* map@2x.png */,
 				A5A77D1118DDEA8D001984E5 /* button_flip_left.png */,
 				A5A77D1218DDEA8D001984E5 /* button_flip_left@2x.png */,
 				A5A77D1318DDEA8D001984E5 /* meter_arrow.png */,
 				A5A77D1418DDEA8D001984E5 /* meter_arrow@2x.png */,
-				A5A77D0918DDE90E001984E5 /* alert_1.png */,
 				A5A77D0A18DDE90E001984E5 /* alert_1@2x.png */,
-				A5A77D0B18DDE90E001984E5 /* alert_2.png */,
 				A5A77D0C18DDE90E001984E5 /* alert_2@2x.png */,
 				C9A9D30B18DDEF0D0010B5F3 /* flight_screen@2x.png */,
 				A5A77D0118DDD952001984E5 /* meter_box_negative.png */,
@@ -479,10 +484,10 @@
 				A5A77D2F18DDF13A001984E5 /* tab_dashboard@2x.png in Resources */,
 				A5A77D1718DDEA8D001984E5 /* meter_arrow.png in Resources */,
 				A5A77D1818DDEA8D001984E5 /* meter_arrow@2x.png in Resources */,
+				C9A9D31F18DE073B0010B5F3 /* MHMapViewController.xib in Resources */,
 				A5A77D3718DDF13A001984E5 /* tab_plane@2x.png in Resources */,
 				C9A9D31518DDF6780010B5F3 /* ProximaNova-RegularIt.otf in Resources */,
 				A5A77CFB18DDCDE1001984E5 /* MHHomeViewController.xib in Resources */,
-				A5A77D0F18DDE90E001984E5 /* alert_2.png in Resources */,
 				A5A77D3518DDF13A001984E5 /* tab_location_selected@2x.png in Resources */,
 				A5A77D3418DDF13A001984E5 /* tab_location_selected.png in Resources */,
 				A5A77D3018DDF13A001984E5 /* tab_dashboard_selected.png in Resources */,
@@ -493,6 +498,7 @@
 				A5A77D3318DDF13A001984E5 /* tab_location@2x.png in Resources */,
 				A5A77D6618DDFAE5001984E5 /* line@2x.png in Resources */,
 				A5A77D3C18DDF13A001984E5 /* tab_sounds_selected.png in Resources */,
+				C9A9D31A18DE07200010B5F3 /* map@2x.png in Resources */,
 				C9A9D31818DDF84D0010B5F3 /* ProximaNovaCond-Regular.otf in Resources */,
 				A5A77D3218DDF13A001984E5 /* tab_location.png in Resources */,
 				A5A77D5318DDF43D001984E5 /* ProximaNova-Regular.otf in Resources */,
@@ -505,7 +511,6 @@
 				C9A9D30818DDEE040010B5F3 /* MHFlightViewController.xib in Resources */,
 				A5A77D3818DDF13A001984E5 /* tab_plane_selected.png in Resources */,
 				A5A77D0618DDD952001984E5 /* meter_box_negative@2x.png in Resources */,
-				A5A77D0D18DDE90E001984E5 /* alert_1.png in Resources */,
 				A5A77D3618DDF13A001984E5 /* tab_plane.png in Resources */,
 				A5A77D3F18DDF13A001984E5 /* tab_tip@2x.png in Resources */,
 				A5A77D0718DDD952001984E5 /* meter_section.png in Resources */,
@@ -531,6 +536,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A9D31E18DE073B0010B5F3 /* MHMapViewController.m in Sources */,
 				C9E11F7E18DDCB2B006AA9F8 /* main.m in Sources */,
 				C9A9D30718DDEE040010B5F3 /* MHFlightViewController.m in Sources */,
 				A5A77D5A18DDF9AC001984E5 /* MHFlightSearchViewController.m in Sources */,

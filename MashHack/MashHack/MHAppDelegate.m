@@ -11,6 +11,7 @@
 #import "MHHomeViewController.h"
 #import "MHFlightViewController.h"
 #import "MHFlightSearchViewController.h"
+#import "MHMapViewController.h"
 
 @interface MHAppDelegate ()
 
@@ -72,7 +73,7 @@
 }
 
 - (UIViewController *)locationViewController {
-    UIViewController *locationVC = [[UIViewController alloc] init];
+    UIViewController *locationVC = [[MHMapViewController alloc] init];
     locationVC.tabBarItem.image = [[UIImage imageNamed:@"tab_location"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     locationVC.tabBarItem.selectedImage = [[UIImage imageNamed:@"tab_location_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     locationVC.tabBarItem.title = [NSLocalizedString(@"Location", nil) uppercaseString];
