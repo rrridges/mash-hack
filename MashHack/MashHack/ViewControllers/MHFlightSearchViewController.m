@@ -38,8 +38,6 @@
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTapped:)];
     [self.view addGestureRecognizer:tap];
     
-    self.title = @"Search";
-    
     
     self.searchLabel.font = [UIFont fontWithName:@"ProximaNovaCond-Regular" size:18];
     self.byFlightLabel.font = [UIFont fontWithName:@"ProximaNovaCond-Regular" size:18];
