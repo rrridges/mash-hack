@@ -48,6 +48,9 @@
 		A5A77D6518DDFAE5001984E5 /* icon_map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D6018DDFAE5001984E5 /* icon_map@2x.png */; };
 		A5A77D6618DDFAE5001984E5 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D6118DDFAE5001984E5 /* line@2x.png */; };
 		A5A77D6818DE1165001984E5 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D6718DE1165001984E5 /* graph@2x.png */; };
+		A5A77D6C18DE1864001984E5 /* MHSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A77D6A18DE1864001984E5 /* MHSoundsViewController.m */; };
+		A5A77D6D18DE1864001984E5 /* MHSoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D6B18DE1864001984E5 /* MHSoundsViewController.xib */; };
+		A5A77D6F18DE188F001984E5 /* SoundScreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D6E18DE188F001984E5 /* SoundScreenShot.png */; };
 		C9A9D30718DDEE040010B5F3 /* MHFlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A9D30518DDEE040010B5F3 /* MHFlightViewController.m */; };
 		C9A9D30818DDEE040010B5F3 /* MHFlightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D30618DDEE040010B5F3 /* MHFlightViewController.xib */; };
 		C9A9D30C18DDEF0D0010B5F3 /* flight_screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D30B18DDEF0D0010B5F3 /* flight_screen@2x.png */; };
@@ -135,6 +138,10 @@
 		A5A77D6018DDFAE5001984E5 /* icon_map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_map@2x.png"; sourceTree = "<group>"; };
 		A5A77D6118DDFAE5001984E5 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
 		A5A77D6718DE1165001984E5 /* graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph@2x.png"; sourceTree = "<group>"; };
+		A5A77D6918DE1864001984E5 /* MHSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHSoundsViewController.h; path = ViewControllers/MHSoundsViewController.h; sourceTree = "<group>"; };
+		A5A77D6A18DE1864001984E5 /* MHSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHSoundsViewController.m; path = ViewControllers/MHSoundsViewController.m; sourceTree = "<group>"; };
+		A5A77D6B18DE1864001984E5 /* MHSoundsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHSoundsViewController.xib; path = ViewControllers/MHSoundsViewController.xib; sourceTree = "<group>"; };
+		A5A77D6E18DE188F001984E5 /* SoundScreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoundScreenShot.png; sourceTree = "<group>"; };
 		C9A9D30418DDEE040010B5F3 /* MHFlightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHFlightViewController.h; path = ViewControllers/MHFlightViewController.h; sourceTree = "<group>"; };
 		C9A9D30518DDEE040010B5F3 /* MHFlightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHFlightViewController.m; path = ViewControllers/MHFlightViewController.m; sourceTree = "<group>"; };
 		C9A9D30618DDEE040010B5F3 /* MHFlightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHFlightViewController.xib; path = ViewControllers/MHFlightViewController.xib; sourceTree = "<group>"; };
@@ -218,6 +225,9 @@
 				C9A9D32218DE128D0010B5F3 /* MHTipsViewController.h */,
 				C9A9D32318DE128D0010B5F3 /* MHTipsViewController.m */,
 				C9A9D32418DE128D0010B5F3 /* MHTipsViewController.xib */,
+				A5A77D6918DE1864001984E5 /* MHSoundsViewController.h */,
+				A5A77D6A18DE1864001984E5 /* MHSoundsViewController.m */,
+				A5A77D6B18DE1864001984E5 /* MHSoundsViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -234,6 +244,7 @@
 		A5A77D0018DDD952001984E5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A5A77D6E18DE188F001984E5 /* SoundScreenShot.png */,
 				A5A77D6718DE1165001984E5 /* graph@2x.png */,
 				A5A77D5C18DDFAE5001984E5 /* Flight */,
 				A5A77D4218DDF43D001984E5 /* Fonts */,
@@ -482,12 +493,14 @@
 				A5A77D2F18DDF13A001984E5 /* tab_dashboard@2x.png in Resources */,
 				A5A77D1718DDEA8D001984E5 /* meter_arrow.png in Resources */,
 				A5A77D1818DDEA8D001984E5 /* meter_arrow@2x.png in Resources */,
+				A5A77D6F18DE188F001984E5 /* SoundScreenShot.png in Resources */,
 				C9A9D31F18DE073B0010B5F3 /* MHMapViewController.xib in Resources */,
 				A5A77D3718DDF13A001984E5 /* tab_plane@2x.png in Resources */,
 				C9A9D31518DDF6780010B5F3 /* ProximaNova-RegularIt.otf in Resources */,
 				A5A77CFB18DDCDE1001984E5 /* MHHomeViewController.xib in Resources */,
 				A5A77D3518DDF13A001984E5 /* tab_location_selected@2x.png in Resources */,
 				A5A77D3418DDF13A001984E5 /* tab_location_selected.png in Resources */,
+				A5A77D6D18DE1864001984E5 /* MHSoundsViewController.xib in Resources */,
 				A5A77D3018DDF13A001984E5 /* tab_dashboard_selected.png in Resources */,
 				A5A77D3B18DDF13A001984E5 /* tab_sounds@2x.png in Resources */,
 				C9A9D30E18DDF2050010B5F3 /* background@2x.png in Resources */,
@@ -539,6 +552,7 @@
 				C9A9D32518DE128D0010B5F3 /* MHTipsViewController.m in Sources */,
 				C9E11FAD18DDCD4C006AA9F8 /* MHTurbulenceMeter.m in Sources */,
 				A5A77CFF18DDCF34001984E5 /* MHSemiDonut.m in Sources */,
+				A5A77D6C18DE1864001984E5 /* MHSoundsViewController.m in Sources */,
 				C9E11F8218DDCB2B006AA9F8 /* MHAppDelegate.m in Sources */,
 				A5A77CFA18DDCDE1001984E5 /* MHHomeViewController.m in Sources */,
 			);

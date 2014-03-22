@@ -13,6 +13,7 @@
 #import "MHFlightSearchViewController.h"
 #import "MHMapViewController.h"
 #import "MHTipsViewController.h"
+#import "MHSoundsViewController.h"
 
 @interface MHAppDelegate ()
 
@@ -82,7 +83,7 @@
 }
 
 - (UIViewController *)soundsViewController {
-    UIViewController *soundsVC = [[UIViewController alloc] init];
+    MHSoundsViewController *soundsVC = [[MHSoundsViewController alloc] init];
     soundsVC.tabBarItem.image = [[UIImage imageNamed:@"tab_sounds"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     soundsVC.tabBarItem.selectedImage = [[UIImage imageNamed:@"tab_sounds_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     soundsVC.tabBarItem.title = [NSLocalizedString(@"Sounds", nil) uppercaseString];
