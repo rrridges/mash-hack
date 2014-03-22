@@ -95,13 +95,14 @@
 
 - (void)viewTapped:(UITapGestureRecognizer *)tap {
     if (self.alert1.hidden) {
-        
+        [self.tabBarItem setBadgeValue:@"1"];
         self.alert1.alpha = 0;
         self.alert1.hidden = NO;
         [UIView animateWithDuration:0.3 animations:^{
             self.alert1.alpha = 1;
         }];
     } else if (self.alert2.hidden) {
+        [self.tabBarItem setBadgeValue:@"2"];
         self.alertScrollView.contentSize = CGSizeMake(320, 640);
         self.alert2.alpha = 0;
         self.alert2.hidden = NO;
@@ -113,6 +114,7 @@
             }];
         }];
     } else if (self.alert3.hidden) {
+        [self.tabBarItem setBadgeValue:@"3"];
         self.alertScrollView.contentSize = CGSizeMake(320, 760);
         self.alert3.alpha = 0;
         self.alert3.hidden = NO;
@@ -125,6 +127,7 @@
             }];
         }];
     } else {
+        [self.tabBarItem setBadgeValue:nil];
         self.alertScrollView.contentSize = CGSizeMake(320, 568);
         self.alert1.hidden = YES;
         self.alert2.hidden = YES;
