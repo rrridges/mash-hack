@@ -32,8 +32,8 @@
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
-    [tabBarController addChildViewController:[self homeViewController]];
     [tabBarController addChildViewController:[self flightViewController]];
+    [tabBarController addChildViewController:[self homeViewController]];
     [tabBarController addChildViewController:[self locationViewController]];
     [tabBarController addChildViewController:[self soundsViewController]];
     [tabBarController addChildViewController:[self tipsViewController]];
@@ -97,9 +97,9 @@
 
 - (void)setupTabBarItemAppearance {
     UITabBarItem *appearance = [UITabBarItem appearance];
-    [appearance setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"AvenirNext-Demibold" size:8],
+    [appearance setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"ProximaNovaCond-Regular" size:9],
                                          NSForegroundColorAttributeName: UIColorFromRGB(0xFFFFFF)} forState:UIControlStateNormal];
-    [appearance setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"AvenirNext-Demibold" size:8],
+    [appearance setTitleTextAttributes:@{NSFontAttributeName: [UIFont fontWithName:@"ProximaNovaCond-Regular" size:9],
                                          NSForegroundColorAttributeName: UIColorFromRGB(0x000000)} forState:UIControlStateSelected];
 }
 

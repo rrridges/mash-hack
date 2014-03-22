@@ -34,5 +34,13 @@
 	</array>
 	<key>UIViewEdgeAntialiasing</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ProximaNova-Regular.otf</string>
+		<string>ProximaNova-RegularIt.otf</string>
+		<string>ProximaNova-Light.otf</string>
+		<string>ProximaNova-Semibold.otf</string>
+		<string>ProximaNovaCond-Regular.otf</string>
+	</array>
 </dict>
 </plist>
