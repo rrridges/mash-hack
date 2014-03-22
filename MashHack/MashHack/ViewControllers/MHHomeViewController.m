@@ -35,6 +35,9 @@
     
     UIView *meterBg = [[UIView alloc] initWithFrame:CGRectMake(10, 10, self.turbulenceMeterContainer.frame.size.width - 20, self.turbulenceMeterContainer.frame.size.height - 20)];
     meterBg.backgroundColor = UIColorFromRGB(0x3a48ab);
+    self.rotatorRect.layer.anchorPoint = CGPointMake(0.5, 0);
+    self.rotatorRect.layer.position = CGPointMake(148, 169);
+    
     [self.turbulenceMeterContainer insertSubview:meterBg belowSubview:self.rotatorRect];
     
     self.rotatorRect.backgroundColor = UIColorFromRGB(0x68b7ef);
