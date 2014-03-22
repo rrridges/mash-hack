@@ -11,6 +11,8 @@
 
 @interface MHFlightSearchViewController () <UITextFieldDelegate>
 
+@property (nonatomic, weak) IBOutlet UILabel *searchLabel;
+@property (nonatomic, weak) IBOutlet UILabel *byFlightLabel;
 @property (nonatomic, weak) IBOutlet UITextField *airlineField;
 @property (nonatomic, weak) IBOutlet UITextField *flightNumberField;
 @property (nonatomic, weak) IBOutlet UITextField *dateField;
@@ -35,6 +37,21 @@
     [self.navigationController setNavigationBarHidden:YES animated:NO];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTapped:)];
     [self.view addGestureRecognizer:tap];
+    
+    self.title = @"Search";
+    
+    
+    self.searchLabel.font = [UIFont fontWithName:@"ProximaNovaCond-Regular" size:18];
+    self.byFlightLabel.font = [UIFont fontWithName:@"ProximaNovaCond-Regular" size:18];
+    
+    self.airlineField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"AIRLINE" attributes:@{NSForegroundColorAttributeName: [[UIColor whiteColor] colorWithAlphaComponent:0.8], NSFontAttributeName : [UIFont fontWithName:@"ProximaNovaCond-Regular" size:14.0]}];
+    self.flightNumberField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"FLIGHT NUMBER" attributes:@{NSForegroundColorAttributeName: [[UIColor whiteColor] colorWithAlphaComponent:0.8], NSFontAttributeName : [UIFont fontWithName:@"ProximaNovaCond-Regular" size:14.0]}];
+    self.dateField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:@"DATE" attributes:@{NSForegroundColorAttributeName: [[UIColor whiteColor] colorWithAlphaComponent:0.8], NSFontAttributeName : [UIFont fontWithName:@"ProximaNovaCond-Regular" size:14.0]}];
+    
+    UITextField *textFieldAppearance = [UITextField appearanceWhenContainedIn:[self class], nil];
+    
+    [textFieldAppearance setFont:[UIFont fontWithName:@"ProximaNovaCond-Regular" size:14]];
+    [textFieldAppearance setTextColor:[UIColor whiteColor]];                                         
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,10 +61,6 @@
 }
 
 #pragma mark - UITextFieldDelegate Methods
-
-- (void)textFieldDidEndEditing:(UITextField *)textField {
-    
-}
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     if (textField == self.airlineField) {

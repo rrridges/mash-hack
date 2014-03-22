@@ -37,7 +37,6 @@
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
     [tabBarController addChildViewController:[self flightViewController]];
-    [tabBarController addChildViewController:[self homeViewController]];
     [tabBarController addChildViewController:[self locationViewController]];
     [tabBarController addChildViewController:[self homeViewController]];
     [tabBarController addChildViewController:[self soundsViewController]];
