@@ -40,16 +40,6 @@
 		A5A77D3F18DDF13A001984E5 /* tab_tip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2B18DDF13A001984E5 /* tab_tip@2x.png */; };
 		A5A77D4018DDF13A001984E5 /* tab_tip_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2C18DDF13A001984E5 /* tab_tip_selected.png */; };
 		A5A77D4118DDF13A001984E5 /* tab_tip_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D2D18DDF13A001984E5 /* tab_tip_selected@2x.png */; };
-		A5A77D4D18DDF43D001984E5 /* ProximaNova-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4318DDF43D001984E5 /* ProximaNova-Black.otf */; };
-		A5A77D4E18DDF43D001984E5 /* ProximaNova-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4418DDF43D001984E5 /* ProximaNova-BoldIt.otf */; };
-		A5A77D4F18DDF43D001984E5 /* ProximaNova-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4518DDF43D001984E5 /* ProximaNova-Extrabold.otf */; };
-		A5A77D5018DDF43D001984E5 /* ProximaNova-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4618DDF43D001984E5 /* ProximaNova-Light.otf */; };
-		A5A77D5118DDF43D001984E5 /* ProximaNova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4718DDF43D001984E5 /* ProximaNova-LightItalic.otf */; };
-		A5A77D5218DDF43D001984E5 /* ProximaNova-RegItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4818DDF43D001984E5 /* ProximaNova-RegItalic.otf */; };
-		A5A77D5318DDF43D001984E5 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4918DDF43D001984E5 /* ProximaNova-Regular.otf */; };
-		A5A77D5418DDF43D001984E5 /* ProximaNovaCond-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4A18DDF43D001984E5 /* ProximaNovaCond-Light.otf */; };
-		A5A77D5518DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4B18DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf */; };
-		A5A77D5618DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D4C18DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf */; };
 		A5A77D5A18DDF9AC001984E5 /* MHFlightSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A77D5818DDF9AC001984E5 /* MHFlightSearchViewController.m */; };
 		A5A77D5B18DDF9AC001984E5 /* MHFlightSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D5918DDF9AC001984E5 /* MHFlightSearchViewController.xib */; };
 		A5A77D6218DDFAE5001984E5 /* icon_airline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D5D18DDFAE5001984E5 /* icon_airline@2x.png */; };
@@ -131,16 +121,6 @@
 		A5A77D2B18DDF13A001984E5 /* tab_tip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_tip@2x.png"; sourceTree = "<group>"; };
 		A5A77D2C18DDF13A001984E5 /* tab_tip_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_tip_selected.png; sourceTree = "<group>"; };
 		A5A77D2D18DDF13A001984E5 /* tab_tip_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_tip_selected@2x.png"; sourceTree = "<group>"; };
-		A5A77D4318DDF43D001984E5 /* ProximaNova-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Black.otf"; sourceTree = "<group>"; };
-		A5A77D4418DDF43D001984E5 /* ProximaNova-BoldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-BoldIt.otf"; sourceTree = "<group>"; };
-		A5A77D4518DDF43D001984E5 /* ProximaNova-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Extrabold.otf"; sourceTree = "<group>"; };
-		A5A77D4618DDF43D001984E5 /* ProximaNova-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Light.otf"; sourceTree = "<group>"; };
-		A5A77D4718DDF43D001984E5 /* ProximaNova-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-LightItalic.otf"; sourceTree = "<group>"; };
-		A5A77D4818DDF43D001984E5 /* ProximaNova-RegItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-RegItalic.otf"; sourceTree = "<group>"; };
-		A5A77D4918DDF43D001984E5 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
-		A5A77D4A18DDF43D001984E5 /* ProximaNovaCond-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Light.otf"; sourceTree = "<group>"; };
-		A5A77D4B18DDF43D001984E5 /* ProximaNovaCond-RegularIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-RegularIt.otf"; sourceTree = "<group>"; };
-		A5A77D4C18DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-SemiboldIt.otf"; sourceTree = "<group>"; };
 		A5A77D5718DDF9AC001984E5 /* MHFlightSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHFlightSearchViewController.h; path = ViewControllers/MHFlightSearchViewController.h; sourceTree = "<group>"; };
 		A5A77D5818DDF9AC001984E5 /* MHFlightSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHFlightSearchViewController.m; path = ViewControllers/MHFlightSearchViewController.m; sourceTree = "<group>"; };
 		A5A77D5918DDF9AC001984E5 /* MHFlightSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHFlightSearchViewController.xib; path = ViewControllers/MHFlightSearchViewController.xib; sourceTree = "<group>"; };
@@ -467,7 +447,6 @@
 				A5A77D3D18DDF13A001984E5 /* tab_sounds_selected@2x.png in Resources */,
 				C9A9D31418DDF6780010B5F3 /* ProximaNova-Regular.otf in Resources */,
 				A5A77D5B18DDF9AC001984E5 /* MHFlightSearchViewController.xib in Resources */,
-				A5A77D5618DDF43D001984E5 /* ProximaNovaCond-SemiboldIt.otf in Resources */,
 				A5A77D3E18DDF13A001984E5 /* tab_tip.png in Resources */,
 				A5A77D1618DDEA8D001984E5 /* button_flip_left@2x.png in Resources */,
 				A5A77D1018DDE90E001984E5 /* alert_2@2x.png in Resources */,
@@ -501,10 +480,7 @@
 				C9A9D31A18DE07200010B5F3 /* map@2x.png in Resources */,
 				C9A9D31818DDF84D0010B5F3 /* ProximaNovaCond-Regular.otf in Resources */,
 				A5A77D3218DDF13A001984E5 /* tab_location.png in Resources */,
-				A5A77D5318DDF43D001984E5 /* ProximaNova-Regular.otf in Resources */,
 				A5A77D6518DDFAE5001984E5 /* icon_map@2x.png in Resources */,
-				A5A77D4D18DDF43D001984E5 /* ProximaNova-Black.otf in Resources */,
-				A5A77D5018DDF43D001984E5 /* ProximaNova-Light.otf in Resources */,
 				A5A77D0818DDD952001984E5 /* meter_section@2x.png in Resources */,
 				C9A9D31318DDF6780010B5F3 /* ProximaNova-Light.otf in Resources */,
 				C9E11F7C18DDCB2B006AA9F8 /* InfoPlist.strings in Resources */,
@@ -514,7 +490,6 @@
 				A5A77D3618DDF13A001984E5 /* tab_plane.png in Resources */,
 				A5A77D3F18DDF13A001984E5 /* tab_tip@2x.png in Resources */,
 				A5A77D0718DDD952001984E5 /* meter_section.png in Resources */,
-				A5A77D5218DDF43D001984E5 /* ProximaNova-RegItalic.otf in Resources */,
 				A5A77D6418DDFAE5001984E5 /* icon_hash@2x.png in Resources */,
 				A5A77D3A18DDF13A001984E5 /* tab_sounds.png in Resources */,
 				A5A77D6318DDFAE5001984E5 /* icon_calendar@2x.png in Resources */,

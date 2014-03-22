@@ -32,8 +32,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    self.title = @"Search";
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTapped:)];
+    [self.view addGestureRecognizer:tap];
 }
 
 - (void)didReceiveMemoryWarning
@@ -59,6 +60,10 @@
     }
     
     return YES;
+}
+
+- (void)viewTapped:(UITapGestureRecognizer *)tap {
+    [self.view endEditing:YES];
 }
 
 @end
