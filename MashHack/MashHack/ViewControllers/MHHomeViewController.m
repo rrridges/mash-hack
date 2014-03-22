@@ -66,6 +66,9 @@
     self.meterArrow.layer.anchorPoint = CGPointMake(0.5, 18.0/27.0);
     self.meterArrow.layer.position = CGPointMake(148, 166);
     self.meterArrow.transform = CGAffineTransformMakeRotation(-M_PI_2);
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(viewTapped:)];
+    [self.view addGestureRecognizer:tap];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -76,12 +79,54 @@
 - (void)turbulenceUpdated:(NSNotification *)notification {
     double magnitude = [notification.userInfo[KMHTurbulenceUpdateNotificationMagnitudeKey] doubleValue];
 //    NSLog(@"magnitude: %f", magnitude);
+    
     float angle = M_PI * magnitude;
     [self.rotatorRect.layer removeAllAnimations];
     [UIView animateWithDuration:0.3 animations:^{
         self.rotatorRect.transform = CGAffineTransformRotate(CGAffineTransformIdentity, angle);
         self.meterArrow.transform = CGAffineTransformRotate(CGAffineTransformMakeRotation(-M_PI_2), angle);
     }];
+}
+
+- (void)viewTapped:(UITapGestureRecognizer *)tap {
+    if (self.alert1.hidden) {
+        
+        self.alert1.alpha = 0;
+        self.alert1.hidden = NO;
+        [UIView animateWithDuration:0.3 animations:^{
+            self.alert1.alpha = 1;
+        }];
+    } else if (self.alert2.hidden) {
+        self.alertScrollView.contentSize = CGSizeMake(320, 640);
+        self.alert2.alpha = 0;
+        self.alert2.hidden = NO;
+        [UIView animateWithDuration:0.3 animations:^{
+            self.alert1.transform = CGAffineTransformMakeTranslation(0, 120);
+        } completion:^(BOOL finished) {
+            [UIView animateWithDuration:0.3 animations:^{
+                self.alert2.alpha = 1;
+            }];
+        }];
+    } else if (self.alert3.hidden) {
+        self.alertScrollView.contentSize = CGSizeMake(320, 760);
+        self.alert3.alpha = 0;
+        self.alert3.hidden = NO;
+        [UIView animateWithDuration:0.3 animations:^{
+            self.alert1.transform = CGAffineTransformTranslate(self.alert1.transform, 0, 120);
+            self.alert2.transform = CGAffineTransformTranslate(self.alert2.transform, 0, 120);
+        } completion:^(BOOL finished) {
+            [UIView animateWithDuration:0.3 animations:^{
+                self.alert3.alpha = 1;
+            }];
+        }];
+    } else {
+        self.alertScrollView.contentSize = CGSizeMake(320, 568);
+        self.alert1.hidden = YES;
+        self.alert2.hidden = YES;
+        self.alert3.hidden = YES;
+        self.alert1.transform = CGAffineTransformIdentity;
+        self.alert2.transform = CGAffineTransformIdentity;
+    }
 }
 
 - (void)didReceiveMemoryWarning

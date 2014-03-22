@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MHHomeViewController">
             <connections>
+                <outlet property="alert1" destination="zfN-Lw-7B7" id="oNU-an-SgR"/>
+                <outlet property="alert2" destination="Qiu-gK-sII" id="N3x-2g-hnf"/>
+                <outlet property="alert3" destination="has-fA-iyr" id="5uM-K1-ouk"/>
+                <outlet property="alertScrollView" destination="O30-P7-6dy" id="JDJ-Oo-E1r"/>
                 <outlet property="meterDescriptionLabel" destination="Blx-UZ-Z6o" id="oqh-2S-x9C"/>
                 <outlet property="mildLabel" destination="LiM-xh-ysr" id="grF-fA-1qX"/>
                 <outlet property="rotatorRect" destination="WAc-dW-1e7" id="TaZ-HN-2me"/>
@@ -74,12 +78,16 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_1.png" id="zfN-Lw-7B7">
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_1.png" id="zfN-Lw-7B7">
                             <rect key="frame" x="12.5" y="319" width="296" height="113"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_2.png" id="Qiu-gK-sII">
-                            <rect key="frame" x="12.5" y="440" width="296" height="113"/>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_2.png" id="Qiu-gK-sII">
+                            <rect key="frame" x="12.5" y="319" width="296" height="113"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_3.png" id="has-fA-iyr">
+                            <rect key="frame" x="12" y="319" width="296" height="113"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                     </subviews>
@@ -94,6 +102,7 @@
     <resources>
         <image name="alert_1.png" width="296" height="113"/>
         <image name="alert_2.png" width="296" height="113"/>
+        <image name="alert_3.png" width="296" height="113"/>
         <image name="background.png" width="320" height="568"/>
         <image name="button_flip_left.png" width="22" height="22"/>
         <image name="meter_box_negative.png" width="295" height="276"/>
