@@ -14,6 +14,14 @@
 		A5A77D0618DDD952001984E5 /* meter_box_negative@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0218DDD952001984E5 /* meter_box_negative@2x.png */; };
 		A5A77D0718DDD952001984E5 /* meter_section.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0318DDD952001984E5 /* meter_section.png */; };
 		A5A77D0818DDD952001984E5 /* meter_section@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0418DDD952001984E5 /* meter_section@2x.png */; };
+		A5A77D0D18DDE90E001984E5 /* alert_1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0918DDE90E001984E5 /* alert_1.png */; };
+		A5A77D0E18DDE90E001984E5 /* alert_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0A18DDE90E001984E5 /* alert_1@2x.png */; };
+		A5A77D0F18DDE90E001984E5 /* alert_2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0B18DDE90E001984E5 /* alert_2.png */; };
+		A5A77D1018DDE90E001984E5 /* alert_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D0C18DDE90E001984E5 /* alert_2@2x.png */; };
+		A5A77D1518DDEA8D001984E5 /* button_flip_left.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1118DDEA8D001984E5 /* button_flip_left.png */; };
+		A5A77D1618DDEA8D001984E5 /* button_flip_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1218DDEA8D001984E5 /* button_flip_left@2x.png */; };
+		A5A77D1718DDEA8D001984E5 /* meter_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1318DDEA8D001984E5 /* meter_arrow.png */; };
+		A5A77D1818DDEA8D001984E5 /* meter_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D1418DDEA8D001984E5 /* meter_arrow@2x.png */; };
 		C9E11F7218DDCB2A006AA9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */; };
 		C9E11F7418DDCB2A006AA9F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */; };
 		C9E11F7618DDCB2B006AA9F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7518DDCB2B006AA9F8 /* UIKit.framework */; };
@@ -50,6 +58,14 @@
 		A5A77D0218DDD952001984E5 /* meter_box_negative@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meter_box_negative@2x.png"; sourceTree = "<group>"; };
 		A5A77D0318DDD952001984E5 /* meter_section.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meter_section.png; sourceTree = "<group>"; };
 		A5A77D0418DDD952001984E5 /* meter_section@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meter_section@2x.png"; sourceTree = "<group>"; };
+		A5A77D0918DDE90E001984E5 /* alert_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert_1.png; sourceTree = "<group>"; };
+		A5A77D0A18DDE90E001984E5 /* alert_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_1@2x.png"; sourceTree = "<group>"; };
+		A5A77D0B18DDE90E001984E5 /* alert_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert_2.png; sourceTree = "<group>"; };
+		A5A77D0C18DDE90E001984E5 /* alert_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_2@2x.png"; sourceTree = "<group>"; };
+		A5A77D1118DDEA8D001984E5 /* button_flip_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_flip_left.png; sourceTree = "<group>"; };
+		A5A77D1218DDEA8D001984E5 /* button_flip_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_flip_left@2x.png"; sourceTree = "<group>"; };
+		A5A77D1318DDEA8D001984E5 /* meter_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meter_arrow.png; sourceTree = "<group>"; };
+		A5A77D1418DDEA8D001984E5 /* meter_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meter_arrow@2x.png"; sourceTree = "<group>"; };
 		C9E11F6E18DDCB2A006AA9F8 /* MashHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MashHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +134,14 @@
 		A5A77D0018DDD952001984E5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A5A77D1118DDEA8D001984E5 /* button_flip_left.png */,
+				A5A77D1218DDEA8D001984E5 /* button_flip_left@2x.png */,
+				A5A77D1318DDEA8D001984E5 /* meter_arrow.png */,
+				A5A77D1418DDEA8D001984E5 /* meter_arrow@2x.png */,
+				A5A77D0918DDE90E001984E5 /* alert_1.png */,
+				A5A77D0A18DDE90E001984E5 /* alert_1@2x.png */,
+				A5A77D0B18DDE90E001984E5 /* alert_2.png */,
+				A5A77D0C18DDE90E001984E5 /* alert_2@2x.png */,
 				A5A77D0118DDD952001984E5 /* meter_box_negative.png */,
 				A5A77D0218DDD952001984E5 /* meter_box_negative@2x.png */,
 				A5A77D0318DDD952001984E5 /* meter_section.png */,
@@ -279,12 +303,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A77D1618DDEA8D001984E5 /* button_flip_left@2x.png in Resources */,
+				A5A77D1018DDE90E001984E5 /* alert_2@2x.png in Resources */,
 				A5A77D0518DDD952001984E5 /* meter_box_negative.png in Resources */,
 				C9E11F8A18DDCB2B006AA9F8 /* Images.xcassets in Resources */,
+				A5A77D1518DDEA8D001984E5 /* button_flip_left.png in Resources */,
+				A5A77D1718DDEA8D001984E5 /* meter_arrow.png in Resources */,
+				A5A77D1818DDEA8D001984E5 /* meter_arrow@2x.png in Resources */,
 				A5A77CFB18DDCDE1001984E5 /* MHHomeViewController.xib in Resources */,
+				A5A77D0F18DDE90E001984E5 /* alert_2.png in Resources */,
+				A5A77D0E18DDE90E001984E5 /* alert_1@2x.png in Resources */,
 				A5A77D0818DDD952001984E5 /* meter_section@2x.png in Resources */,
 				C9E11F7C18DDCB2B006AA9F8 /* InfoPlist.strings in Resources */,
 				A5A77D0618DDD952001984E5 /* meter_box_negative@2x.png in Resources */,
+				A5A77D0D18DDE90E001984E5 /* alert_1.png in Resources */,
 				A5A77D0718DDD952001984E5 /* meter_section.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +338,6 @@
 			files = (
 				C9E11F7E18DDCB2B006AA9F8 /* main.m in Sources */,
 				C9E11FAD18DDCD4C006AA9F8 /* MHTurbulenceMeter.m in Sources */,
-				C9E11F8818DDCB2B006AA9F8 /* MHViewController.m in Sources */,
 				A5A77CFF18DDCF34001984E5 /* MHSemiDonut.m in Sources */,
 				C9E11F8218DDCB2B006AA9F8 /* MHAppDelegate.m in Sources */,
 				A5A77CFA18DDCDE1001984E5 /* MHHomeViewController.m in Sources */,

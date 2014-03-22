@@ -35,6 +35,7 @@
     // Do any additional setup after loading the view from its nib.
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(turbulenceUpdated:) name:kMHTurbulenceUpdateNotification object:nil];
+    self.turbulenceMeterContainer.layer.cornerRadius = 10;
     
     UIView *meterBg = [[UIView alloc] initWithFrame:CGRectMake(10, 10, self.turbulenceMeterContainer.frame.size.width - 20, self.turbulenceMeterContainer.frame.size.height - 20)];
     meterBg.backgroundColor = UIColorFromRGB(0x3a48ab);

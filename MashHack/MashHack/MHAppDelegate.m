@@ -27,13 +27,33 @@
 		
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    MHHomeViewController *homeVC = [[MHHomeViewController alloc] initWithNibName:nil bundle:nil];
+    [self setupTabbarAppearance];
     
-    self.window.rootViewController = homeVC;
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    UIViewController *homeVC = [self homeViewController];
+    
+    [tabBarController addChildViewController:homeVC];
+    
+    self.window.rootViewController = tabBarController;
     
     [self.window makeKeyAndVisible];
     
     return YES;
+}
+
+- (UIViewController *)homeViewController {
+    MHHomeViewController *homeVC = [[MHHomeViewController alloc] initWithNibName:nil bundle:nil];
+    homeVC.tabBarItem.image = [[UIImage imageNamed:@"icon_profile"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    homeVC.tabBarItem.selectedImage = [UIImage imageNamed:@"icon_profile_selected"];
+    homeVC.tabBarItem.title = [NSLocalizedString(@"Dashboard", nil) uppercaseString];
+    
+    return homeVC;
+}
+
+- (void)setupTabbarAppearance {
+    UITabBar *appearance = [UITabBar appearance];
+    [appearance setBarTintColor:UIColorFromRGB(0x68b7ef)];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
