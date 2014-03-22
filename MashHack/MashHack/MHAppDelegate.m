@@ -8,13 +8,13 @@
 
 #import "MHAppDelegate.h"
 #import "MHTurbulenceMeter.h"
+#import "MHHomeViewController.h"
 
 @interface MHAppDelegate ()
 
 @property (strong, nonatomic) MHTurbulenceMeter *meter;
 
 @end
-#import "MHHomeViewController.h"
 
 @implementation MHAppDelegate
 
