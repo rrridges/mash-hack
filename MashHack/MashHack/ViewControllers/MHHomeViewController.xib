@@ -10,6 +10,7 @@
                 <outlet property="alert2" destination="Qiu-gK-sII" id="N3x-2g-hnf"/>
                 <outlet property="alert3" destination="has-fA-iyr" id="5uM-K1-ouk"/>
                 <outlet property="alertScrollView" destination="O30-P7-6dy" id="JDJ-Oo-E1r"/>
+                <outlet property="graphImage" destination="e4p-X1-prX" id="ieb-io-gum"/>
                 <outlet property="meterDescriptionLabel" destination="Blx-UZ-Z6o" id="oqh-2S-x9C"/>
                 <outlet property="mildLabel" destination="LiM-xh-ysr" id="grF-fA-1qX"/>
                 <outlet property="rotatorRect" destination="WAc-dW-1e7" id="TaZ-HN-2me"/>
@@ -46,13 +47,6 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </imageView>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GCL-Je-A30">
-                                    <rect key="frame" x="6" y="6" width="22" height="22"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" image="button_flip_left.png">
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                </button>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Blx-UZ-Z6o">
                                     <rect key="frame" x="20" y="198" width="255" height="66"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -75,6 +69,20 @@
                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graph.png" id="e4p-X1-prX">
+                                    <rect key="frame" x="0.0" y="0.0" width="295" height="276"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GCL-Je-A30">
+                                    <rect key="frame" x="6" y="6" width="22" height="22"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="button_flip_left.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="flipTopView:" destination="-1" eventType="touchUpInside" id="Xbe-Cq-bIX"/>
+                                    </connections>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </view>
@@ -105,6 +113,7 @@
         <image name="alert_3.png" width="296" height="113"/>
         <image name="background.png" width="320" height="568"/>
         <image name="button_flip_left.png" width="22" height="22"/>
+        <image name="graph.png" width="297" height="276"/>
         <image name="meter_box_negative.png" width="295" height="276"/>
     </resources>
 </document>

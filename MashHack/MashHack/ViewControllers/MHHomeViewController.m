@@ -16,6 +16,9 @@
 @property (nonatomic, weak) IBOutlet UIImageView *turbulenceMeterBgMask;
 @property (nonatomic, weak) IBOutlet UIView *rotatorRect;
 @property (nonatomic, strong) UIImageView *meterArrow;
+@property (nonatomic, weak) IBOutlet UIImageView *graphImage;
+
+- (IBAction)flipTopView:(id)sender;
 
 @end
 
@@ -62,7 +65,7 @@
     self.severeLabel.font = [UIFont fontWithName:@"ProximaNovaCond-Regular" size:12];
     
     self.meterArrow = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"meter_arrow.png"]];
-    [self.turbulenceMeterContainer addSubview:self.meterArrow];
+    [self.turbulenceMeterContainer insertSubview:self.meterArrow belowSubview:self.graphImage];
     self.meterArrow.layer.anchorPoint = CGPointMake(0.5, 18.0/27.0);
     self.meterArrow.layer.position = CGPointMake(148, 166);
     self.meterArrow.transform = CGAffineTransformMakeRotation(-M_PI_2);
@@ -133,6 +136,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)flipTopView:(id)sender {
+    [UIView transitionWithView:self.turbulenceMeterContainer duration:0.4 options:UIViewAnimationOptionTransitionFlipFromLeft animations:^{
+        self.graphImage.hidden = !self.graphImage.hidden;
+    } completion:^(BOOL finished){
+        
+    }];
 }
 
 @end

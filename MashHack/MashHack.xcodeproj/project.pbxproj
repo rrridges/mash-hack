@@ -47,6 +47,7 @@
 		A5A77D6418DDFAE5001984E5 /* icon_hash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D5F18DDFAE5001984E5 /* icon_hash@2x.png */; };
 		A5A77D6518DDFAE5001984E5 /* icon_map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D6018DDFAE5001984E5 /* icon_map@2x.png */; };
 		A5A77D6618DDFAE5001984E5 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D6118DDFAE5001984E5 /* line@2x.png */; };
+		A5A77D6818DE1165001984E5 /* graph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5A77D6718DE1165001984E5 /* graph@2x.png */; };
 		C9A9D30718DDEE040010B5F3 /* MHFlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A9D30518DDEE040010B5F3 /* MHFlightViewController.m */; };
 		C9A9D30818DDEE040010B5F3 /* MHFlightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D30618DDEE040010B5F3 /* MHFlightViewController.xib */; };
 		C9A9D30C18DDEF0D0010B5F3 /* flight_screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D30B18DDEF0D0010B5F3 /* flight_screen@2x.png */; };
@@ -133,6 +134,7 @@
 		A5A77D5F18DDFAE5001984E5 /* icon_hash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_hash@2x.png"; sourceTree = "<group>"; };
 		A5A77D6018DDFAE5001984E5 /* icon_map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_map@2x.png"; sourceTree = "<group>"; };
 		A5A77D6118DDFAE5001984E5 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		A5A77D6718DE1165001984E5 /* graph@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph@2x.png"; sourceTree = "<group>"; };
 		C9A9D30418DDEE040010B5F3 /* MHFlightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHFlightViewController.h; path = ViewControllers/MHFlightViewController.h; sourceTree = "<group>"; };
 		C9A9D30518DDEE040010B5F3 /* MHFlightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHFlightViewController.m; path = ViewControllers/MHFlightViewController.m; sourceTree = "<group>"; };
 		C9A9D30618DDEE040010B5F3 /* MHFlightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHFlightViewController.xib; path = ViewControllers/MHFlightViewController.xib; sourceTree = "<group>"; };
@@ -232,6 +234,7 @@
 		A5A77D0018DDD952001984E5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A5A77D6718DE1165001984E5 /* graph@2x.png */,
 				A5A77D5C18DDFAE5001984E5 /* Flight */,
 				A5A77D4218DDF43D001984E5 /* Fonts */,
 				A5A77D1918DDF13A001984E5 /* TabBar */,
@@ -465,6 +468,7 @@
 				A5A77D1618DDEA8D001984E5 /* button_flip_left@2x.png in Resources */,
 				A5A77D1018DDE90E001984E5 /* alert_2@2x.png in Resources */,
 				A5A77D6218DDFAE5001984E5 /* icon_airline@2x.png in Resources */,
+				A5A77D6818DE1165001984E5 /* graph@2x.png in Resources */,
 				C9A9D30C18DDEF0D0010B5F3 /* flight_screen@2x.png in Resources */,
 				A5A77D2E18DDF13A001984E5 /* tab_dashboard.png in Resources */,
 				A5A77D0518DDD952001984E5 /* meter_box_negative.png in Resources */,
