@@ -21,6 +21,8 @@
 		C9E11F9318DDCB2B006AA9F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7518DDCB2B006AA9F8 /* UIKit.framework */; };
 		C9E11F9B18DDCB2B006AA9F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9E11F9918DDCB2B006AA9F8 /* InfoPlist.strings */; };
 		C9E11F9D18DDCB2B006AA9F8 /* MashHackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E11F9C18DDCB2B006AA9F8 /* MashHackTests.m */; };
+		C9E11FAA18DDCC72006AA9F8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11FA918DDCC72006AA9F8 /* CoreMotion.framework */; };
+		C9E11FAD18DDCD4C006AA9F8 /* MHTurbulenceMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E11FAC18DDCD4C006AA9F8 /* MHTurbulenceMeter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		C9E11F9818DDCB2B006AA9F8 /* MashHackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MashHackTests-Info.plist"; sourceTree = "<group>"; };
 		C9E11F9A18DDCB2B006AA9F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9E11F9C18DDCB2B006AA9F8 /* MashHackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MashHackTests.m; sourceTree = "<group>"; };
+		C9E11FA918DDCC72006AA9F8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C9E11FAB18DDCD4C006AA9F8 /* MHTurbulenceMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHTurbulenceMeter.h; sourceTree = "<group>"; };
+		C9E11FAC18DDCD4C006AA9F8 /* MHTurbulenceMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHTurbulenceMeter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E11FAA18DDCC72006AA9F8 /* CoreMotion.framework in Frameworks */,
 				C9E11F7418DDCB2A006AA9F8 /* CoreGraphics.framework in Frameworks */,
 				C9E11F7618DDCB2B006AA9F8 /* UIKit.framework in Frameworks */,
 				C9E11F7218DDCB2A006AA9F8 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		C9E11F7018DDCB2A006AA9F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9E11FA918DDCC72006AA9F8 /* CoreMotion.framework */,
 				C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */,
 				C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */,
 				C9E11F7518DDCB2B006AA9F8 /* UIKit.framework */,
@@ -119,6 +126,8 @@
 				C9E11F8718DDCB2B006AA9F8 /* MHViewController.m */,
 				C9E11F8918DDCB2B006AA9F8 /* Images.xcassets */,
 				C9E11F7818DDCB2B006AA9F8 /* Supporting Files */,
+				C9E11FAB18DDCD4C006AA9F8 /* MHTurbulenceMeter.h */,
+				C9E11FAC18DDCD4C006AA9F8 /* MHTurbulenceMeter.m */,
 			);
 			path = MashHack;
 			sourceTree = "<group>";
@@ -251,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9E11F7E18DDCB2B006AA9F8 /* main.m in Sources */,
+				C9E11FAD18DDCD4C006AA9F8 /* MHTurbulenceMeter.m in Sources */,
 				C9E11F8818DDCB2B006AA9F8 /* MHViewController.m in Sources */,
 				C9E11F8218DDCB2B006AA9F8 /* MHAppDelegate.m in Sources */,
 			);
@@ -377,10 +387,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Bridges (QVSQ5PSATS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MashHack/MashHack-Prefix.pch";
 				INFOPLIST_FILE = "MashHack/MashHack-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B4792ED1-3979-486D-940C-85DD7078CB6E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +403,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matt Bridges (QVSQ5PSATS)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MashHack/MashHack-Prefix.pch";
 				INFOPLIST_FILE = "MashHack/MashHack-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B4792ED1-3979-486D-940C-85DD7078CB6E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +473,7 @@
 				C9E11FA218DDCB2B006AA9F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9E11FA318DDCB2B006AA9F8 /* Build configuration list for PBXNativeTarget "MashHackTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +482,7 @@
 				C9E11FA518DDCB2B006AA9F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

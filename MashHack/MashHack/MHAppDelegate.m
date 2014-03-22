@@ -7,12 +7,23 @@
 //
 
 #import "MHAppDelegate.h"
+#import "MHTurbulenceMeter.h"
+
+@interface MHAppDelegate ()
+
+@property (strong, nonatomic) MHTurbulenceMeter *meter;
+
+@end
 
 @implementation MHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.meter = [[MHTurbulenceMeter alloc] init];
+    [self.meter start];
+    
     return YES;
 }
 							
