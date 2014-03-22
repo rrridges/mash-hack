@@ -60,6 +60,9 @@
 		C9A9D31E18DE073B0010B5F3 /* MHMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A9D31C18DE073B0010B5F3 /* MHMapViewController.m */; };
 		C9A9D31F18DE073B0010B5F3 /* MHMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D31D18DE073B0010B5F3 /* MHMapViewController.xib */; };
 		C9A9D32118DE0FA40010B5F3 /* alert_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D32018DE0FA40010B5F3 /* alert_3@2x.png */; };
+		C9A9D32518DE128D0010B5F3 /* MHTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A9D32318DE128D0010B5F3 /* MHTipsViewController.m */; };
+		C9A9D32618DE128D0010B5F3 /* MHTipsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D32418DE128D0010B5F3 /* MHTipsViewController.xib */; };
+		C9A9D32818DE12AF0010B5F3 /* tips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9A9D32718DE12AF0010B5F3 /* tips@2x.png */; };
 		C9E11F7218DDCB2A006AA9F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */; };
 		C9E11F7418DDCB2A006AA9F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */; };
 		C9E11F7618DDCB2B006AA9F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E11F7518DDCB2B006AA9F8 /* UIKit.framework */; };
@@ -145,6 +148,10 @@
 		C9A9D31C18DE073B0010B5F3 /* MHMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHMapViewController.m; path = ViewControllers/MHMapViewController.m; sourceTree = "<group>"; };
 		C9A9D31D18DE073B0010B5F3 /* MHMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHMapViewController.xib; path = ViewControllers/MHMapViewController.xib; sourceTree = "<group>"; };
 		C9A9D32018DE0FA40010B5F3 /* alert_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_3@2x.png"; sourceTree = "<group>"; };
+		C9A9D32218DE128D0010B5F3 /* MHTipsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHTipsViewController.h; path = ViewControllers/MHTipsViewController.h; sourceTree = "<group>"; };
+		C9A9D32318DE128D0010B5F3 /* MHTipsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHTipsViewController.m; path = ViewControllers/MHTipsViewController.m; sourceTree = "<group>"; };
+		C9A9D32418DE128D0010B5F3 /* MHTipsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MHTipsViewController.xib; path = ViewControllers/MHTipsViewController.xib; sourceTree = "<group>"; };
+		C9A9D32718DE12AF0010B5F3 /* tips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tips@2x.png"; sourceTree = "<group>"; };
 		C9E11F6E18DDCB2A006AA9F8 /* MashHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MashHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E11F7118DDCB2A006AA9F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9E11F7318DDCB2A006AA9F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -206,6 +213,9 @@
 				C9A9D31B18DE073B0010B5F3 /* MHMapViewController.h */,
 				C9A9D31C18DE073B0010B5F3 /* MHMapViewController.m */,
 				C9A9D31D18DE073B0010B5F3 /* MHMapViewController.xib */,
+				C9A9D32218DE128D0010B5F3 /* MHTipsViewController.h */,
+				C9A9D32318DE128D0010B5F3 /* MHTipsViewController.m */,
+				C9A9D32418DE128D0010B5F3 /* MHTipsViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -227,6 +237,7 @@
 				A5A77D1918DDF13A001984E5 /* TabBar */,
 				C9A9D30D18DDF2050010B5F3 /* background@2x.png */,
 				C9A9D31918DE07200010B5F3 /* map@2x.png */,
+				C9A9D32718DE12AF0010B5F3 /* tips@2x.png */,
 				A5A77D1118DDEA8D001984E5 /* button_flip_left.png */,
 				A5A77D1218DDEA8D001984E5 /* button_flip_left@2x.png */,
 				A5A77D1318DDEA8D001984E5 /* meter_arrow.png */,
@@ -463,6 +474,7 @@
 				A5A77D4018DDF13A001984E5 /* tab_tip_selected.png in Resources */,
 				A5A77D1518DDEA8D001984E5 /* button_flip_left.png in Resources */,
 				C9A9D31618DDF6780010B5F3 /* ProximaNova-Semibold.otf in Resources */,
+				C9A9D32818DE12AF0010B5F3 /* tips@2x.png in Resources */,
 				A5A77D2F18DDF13A001984E5 /* tab_dashboard@2x.png in Resources */,
 				A5A77D1718DDEA8D001984E5 /* meter_arrow.png in Resources */,
 				A5A77D1818DDEA8D001984E5 /* meter_arrow@2x.png in Resources */,
@@ -483,6 +495,7 @@
 				C9A9D31A18DE07200010B5F3 /* map@2x.png in Resources */,
 				C9A9D31818DDF84D0010B5F3 /* ProximaNovaCond-Regular.otf in Resources */,
 				A5A77D3218DDF13A001984E5 /* tab_location.png in Resources */,
+				C9A9D32618DE128D0010B5F3 /* MHTipsViewController.xib in Resources */,
 				A5A77D6518DDFAE5001984E5 /* icon_map@2x.png in Resources */,
 				A5A77D0818DDD952001984E5 /* meter_section@2x.png in Resources */,
 				C9A9D31318DDF6780010B5F3 /* ProximaNova-Light.otf in Resources */,
@@ -519,6 +532,7 @@
 				C9E11F7E18DDCB2B006AA9F8 /* main.m in Sources */,
 				C9A9D30718DDEE040010B5F3 /* MHFlightViewController.m in Sources */,
 				A5A77D5A18DDF9AC001984E5 /* MHFlightSearchViewController.m in Sources */,
+				C9A9D32518DE128D0010B5F3 /* MHTipsViewController.m in Sources */,
 				C9E11FAD18DDCD4C006AA9F8 /* MHTurbulenceMeter.m in Sources */,
 				A5A77CFF18DDCF34001984E5 /* MHSemiDonut.m in Sources */,
 				C9E11F8218DDCB2B006AA9F8 /* MHAppDelegate.m in Sources */,

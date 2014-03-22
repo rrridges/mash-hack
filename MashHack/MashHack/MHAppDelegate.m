@@ -12,6 +12,7 @@
 #import "MHFlightViewController.h"
 #import "MHFlightSearchViewController.h"
 #import "MHMapViewController.h"
+#import "MHTipsViewController.h"
 
 @interface MHAppDelegate ()
 
@@ -90,7 +91,7 @@
 }
 
 - (UIViewController *)tipsViewController {
-    UIViewController *tipsVC = [[UIViewController alloc] init];
+    UIViewController *tipsVC = [[MHTipsViewController alloc] init];
     tipsVC.tabBarItem.image = [[UIImage imageNamed:@"tab_tip"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     tipsVC.tabBarItem.selectedImage = [[UIImage imageNamed:@"tab_tip_selected"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     tipsVC.tabBarItem.title = [NSLocalizedString(@"Tips", nil) uppercaseString];
